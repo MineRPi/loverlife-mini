@@ -1,0 +1,11 @@
+.personal .header {
+  height: 200rpx;
+  background: #c6dfc8;
+}
+.personal .header image {
+  height: 100rpx;
+  width: 100rpx;
+  vertical-align: middle;
+  margin-left: 40rpx;
+}
+

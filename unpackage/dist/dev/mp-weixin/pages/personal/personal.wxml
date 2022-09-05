@@ -1,0 +1,1 @@
+<view class="personal"><view class="header"><block wx:if="{{hasUserInfo}}"><image class="login" src="{{userInfo.avatarUrl}}" mode></image></block><block wx:else><image class="nologin" src="/static/personal/nologin.png" mode data-event-opts="{{[['tap',[['getUser']]]]}}" bindtap="__e"></image></block></view></view>

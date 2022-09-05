@@ -1,0 +1,51 @@
+.container .indexcontent {
+  background: #c6dfc8;
+}
+.container .indexcontent .header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.container .indexcontent .header .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 10rpx;
+  margin-right: 5rpx;
+}
+.container .indexcontent .header .logo .logocontent {
+  width: 100%;
+  height: 100%;
+}
+.container .indexcontent .header .search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1rpx solid #8cc269;
+  border-radius: 20px;
+  background: #f9f9f9;
+  margin-right: 5rpx;
+  margin-left: 3rpx;
+}
+.container .indexcontent .header .search .search_icon {
+  margin-right: 5rpx;
+  margin-left: 10rpx;
+}
+.container .indexcontent .header .search input {
+  margin-left: 3rpx;
+  font-size: 14px;
+}
+.container .navScrolls .navScroll {
+  white-space: nowrap;
+}
+.container .navScrolls .navScroll .navItem {
+  display: inline-block;
+  height: 35rpx;
+  padding: 10rpx;
+  font-size: 26rpx;
+}
+.container .navScrolls .navScroll .navItem.active {
+  border-bottom: 4rpx dashed #e3b4b8;
+  color: #e3b4b8;
+  font-size: 30rpx;
+}
+

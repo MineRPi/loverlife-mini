@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/personal/personal",
+    "pages/index/index",
+    "pages/todo/todo",
+    "pages/home/home"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "♥LoverLife♥",
+    "navigationBarBackgroundColor": "#c6dfc8",
+    "backgroundColor": "#8cc269"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#000000",
+    "backgroundColor": "#c6dfc8",
+    "list": [
+      {
+        "iconPath": "./static/tabbar/todo.png",
+        "selectedIconPath": "./static/tabbar/todo_current.png",
+        "text": "约定",
+        "pagePath": "pages/todo/todo"
+      },
+      {
+        "iconPath": "./static/tabbar/huiyi.png",
+        "selectedIconPath": "./static/tabbar/huiyi_current.png",
+        "text": "回忆",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "./static/tabbar/person.png",
+        "selectedIconPath": "./static/tabbar/person_current.png",
+        "text": "我们",
+        "pagePath": "pages/personal/personal"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

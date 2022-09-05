@@ -1,0 +1,68 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/personal/personal",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我们",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		}
+        ,{
+            "path" : "pages/todo/todo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "约定"
+            }
+            
+        }
+		,{
+		    "path" : "pages/home/home",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "LoverLifeHOME",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "♥LoverLife♥",
+		"navigationBarBackgroundColor": "#c6dfc8",
+		"backgroundColor": "#8cc269"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#000000",
+		"backgroundColor": "#c6dfc8",
+		"list": [
+			{
+				"iconPath": "./static/tabbar/todo.png",
+				"selectedIconPath": "./static/tabbar/todo_current.png",
+				"text": "约定",
+				"pagePath": "pages/todo/todo"
+			},
+			{
+				"iconPath": "./static/tabbar/huiyi.png",
+				"selectedIconPath": "./static/tabbar/huiyi_current.png",
+				"text": "回忆",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"iconPath": "./static/tabbar/person.png",
+				"selectedIconPath": "./static/tabbar/person_current.png",
+				"text": "我们",
+				"pagePath": "pages/personal/personal"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
